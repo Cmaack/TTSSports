@@ -1,0 +1,143 @@
+
+/*Services below*/
+
+
+#services .services-top {
+    padding: 70px 0 50px;
+}
+#services .services-list {
+    padding-top: 50px;
+}
+
+.jumbo{
+  background-color: #fff;
+  margin-top: -5em;
+}
+.service-title-main{
+  font-weight: 300;
+  font-size: 63px;
+  border-bottom: 1px solid navy;
+}
+
+.service-title{
+
+}
+
+.panel-btn:hover, .panel-btn:active{
+text-decoration: none;
+}
+.panel-heading{
+  background-color: #DCDCDC;
+  color: black;
+}
+.panel-heading::after{
+  text-decoration: none;
+}
+.panel-body{
+  background-color: whitesmoke;
+}
+.service-hook{
+  padding-top:8px;
+  padding-bottom: 3px;
+}
+
+.services-list .service-block {
+    margin-bottom: 25px;
+    padding-bottom: 1em;
+}
+.services-list .service-block .ico {
+    font-size: 38px;
+    float: left;
+}
+.services-list .service-block .text-block {
+    margin-left: 58px;
+}
+.services-list .service-block .text-block .name {
+    font-size: 22px;
+    font-weight: 900;
+    margin-bottom: 3px;
+
+}
+.services-list .service-block .text-block .info {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid lightgrey;
+
+
+}
+.services-list .service-block .text-block .text {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+.highlight {
+    color: #4682B4;
+    font-weight:bold;
+}
+.faq{
+  background-color: whitesmoke;
+  padding-top: 2em;
+}
+.faq-title{
+  padding: 1em 0;
+  background-color: white;
+  background-image: url('../images/faq-background.jpg');
+  color: white;
+}
+.faq-title h1{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 0.7em;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#accordion .panel-heading{
+  padding: 0;
+}
+#accordion .panel-title > a {
+	display: block;
+	padding: 1.5em 0.6em;
+    outline: none;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+    font-weight: 300;
+    text-decoration: none;
+    background-color: steelblue;
+    color: whitesmoke;
+    -webkit-transition: all 1.2s ease;
+  -moz-transition: all 1.2s ease;
+  -o-transition: all 1.2s ease;
+  -ms-transition: all 1.2s ease;
+}
+#accordion .panel-title > a:hover{
+
+
+  color: #00FFFF;
+}
+
+
+
+
+@media all and (max-width: 800px) {
+  #accordion .panel-title > a {
+  	display: block;
+  	padding: 1.5em 0.6em;
+      outline: none;
+      font-size: 18px;
+      letter-spacing: 1.5px;
+      line-height: 1.5;
+      font-weight: 300;
+      text-decoration: none;
+      background-color: steelblue;
+      color: whitesmoke;
+    }
+    #accordion .panel-title > a:hover{
+      font-size: 18px;
+
+      color: whitesmoke;
+    }
+  }
