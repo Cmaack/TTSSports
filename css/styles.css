@@ -1645,6 +1645,8 @@ display: none;
 .college-commit-pic{
   margin: 0;
   padding: 0;
+}.commit-row-balance{
+  background: #111;
 }
 
 .what-they-say{
@@ -1659,4 +1661,28 @@ display: none;
   background: rgba(255, 255, 255, 0.91);
   padding-top: 2em;
   padding-bottom: 1.5em;
+}
+/*new feb 2017*/
+.sliding-middle-out {
+	display: inline-block;
+	position: relative;
+	padding-bottom: 3px;
+  color: #fff;
+}
+.sliding-middle-out:hover{
+  color: #fff;
+  text-decoration: none;
+}
+.sliding-middle-out:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 3px;
+	width: 0px;
+	background: transparent;
+	transition: width .8s ease, background-color .8s ease;
+}
+.sliding-middle-out:hover:after {
+	width: 100%;
+	background: #fff;
 }

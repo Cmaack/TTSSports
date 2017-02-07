@@ -55,3 +55,11 @@ text-decoration: none;
   padding: 3em 0;
 	margin-bottom: -1em;
 }
+.advisory-register-btn{
+	margin-left: 30%;
+}
+@media all and (max-width: 800px) {
+	.advisory-register-btn{
+		margin: auto;
+	}
+}

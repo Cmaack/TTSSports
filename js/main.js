@@ -3,8 +3,11 @@ jQuery(document).ready(function($){
 	$('.cd-testimonials-wrapper').flexslider({
 		selector: ".cd-testimonials > li",
 		animation: "slide",
+		animationLoop: true,
 		controlNav: false,
-		slideshow: false,
+		slideshow: true,
+		slideshowSpeed: 5000,
+		pauseOnHover:true,
 		smoothHeight: true,
 		start: function(){
 			$('.cd-testimonials').children('li').css({
